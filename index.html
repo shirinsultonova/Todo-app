@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <header class="p-3 bg-danger">
+        <div class="container">
+                <h1 class="text-center fs-2 fw-bold">
+                    Todo App
+                </h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="wrapper d-flex flex-column">
+                    <form class="form d-flex" action="" autocomplete="off" >
+                        <input class="form-control task-input" type="text" name="user_name" placeholder="Add a new task">
+                        <button class="btn btn-success" type="submit">Add</button>
+                    </form>
+                    
+                    <ol class="form-list list-unstyled">
+                        
+                    </ol>
+
+                    <div class="complete-wrapper d-flex flex-column justify-content-start">
+                        <div>All <span class="all"></span></div>
+                        <div>Completed<span class="complete"></span></div>
+                        <div>Uncompleted<span class="uncomplete"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
